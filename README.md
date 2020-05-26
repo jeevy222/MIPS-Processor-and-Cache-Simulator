@@ -14,6 +14,8 @@ The Data Memory is initialized using the “dmem.txt” file. The format of the 
 
 Classes
 We have defined four C++ classes that each implement one of the four major blocks in a single cycle MIPS, namely RF (to implement the register file), ALU (to implement the ALU), INSMem (to implement instruction memory), and DataMem (to implement data memory).
+
+
 1.RF class: contains 32 32-bit registers defined as a private member. Remember that register $0 isalways 0. 
 
 2.ALU class: implements the ALU.Implemented ALUOperation() member functionthat performs the appropriate operation on two 32 bit operands based on ALUOP. 
